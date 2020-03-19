@@ -36,5 +36,10 @@ Please follow the bellow steps to run the code.</br>
 ## Quick Overview
 ![Diagram of the proposed method](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Main%20model.png)
 
+### Quantitive result 
+![Segmentation Result](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Table.jpg)
+
 ### Visual representation of the segmentation results on both ph2 and ISIC dataset
 ![Segmentation Result](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Result.png)
+
+
