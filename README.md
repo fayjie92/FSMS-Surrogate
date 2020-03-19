@@ -34,7 +34,7 @@ Please follow the bellow steps to run the code.</br>
 2- Run `Train_DOGLSTM.py` for training and evaluation. 
 
 ## Quick Overview
-![Diagram of the proposed method](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Main%20model.png)
+![Diagram of the proposed method](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Main%20model1.png)
 ### Quantitive result 
 ![Segmentation Result](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Table.jpg)
 
