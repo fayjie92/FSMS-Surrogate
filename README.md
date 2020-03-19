@@ -1,6 +1,6 @@
 # [Semi-supervised Few-Shot Learning for Medical Image Segmentation]()
 
-Implementation code for Semi-supervised approach for few-shot semantic medical image segmentation. This method is the first attempt to applies episodic training process for learning few-shot medical image segmentation and jointly enritches the festure representation using unlabeled samples. More specific, this method boosts the encoder representation with including surrogate task. Experimental results on two well-know Skin Lesion Segmentation data sets have been demonstrated that the proposed method produces promissing results. If this code helps with your research please consider citing the following paper:
+Implementation code for Semi-supervised approach for few-shot semantic medical image segmentation. This method is the first attempt to applies episodic training process for learning few-shot medical image segmentation. This method also enritches the festure representation using unsupervised manner. More specific, this method boosts the encoder representation with including surrogate task. Experimental results on two well-know Skin Lesion Segmentation data sets have been demonstrated that the proposed method produces promissing results. If this code helps with your research please consider citing the following paper:
 </br>
 >[Abdur. R. Fayjie](https://sites.google.com/site/abdurrfayjie/),
 [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate),
