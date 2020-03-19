@@ -10,10 +10,8 @@ Implementation code for Semi-supervised approach for few-shot semantic medical i
 [Jose Dolz](https://scholar.google.ca/citations?user=yHQIFFMAAAAJ&hl=en) 
 "Semi-supervised Few-Shot Learning for Medical Image Segmentation", arXiv preprint arXiv, 2020, download [link]().
 
-#### Please consider starring us, if you found it useful. Thanks
-
 ## Updates
-- March 7, 2020: Implementation code is available now.
+- March 20, 2020: Implementation code is available now.
 </br>
 
 ## Prerequisties and Run
@@ -25,18 +23,18 @@ This code has been implemented in python language using Keras libarary with tens
 
 
 ## Run Demo
-The implementation code is availabel in Source Code folder.</br>
-1- Download the FSS1000 dataset from [this](https://drive.google.com/open?id=16TgqOeI_0P41Eh3jWQlxlRXG9KIqtMgI) link and extract the dataset.</br>
-2- Run `Train_DOGLSTM.py` for training Scale Space Encoder model using k-shot episodic training. The model will be train for 50 epochs and for each epoch it will itterate 1000 episodes to train the model. The model will saves validation performance history and the best weights for the valiation set. It also will report the MIOU performance on the test set. The model by default will use VGG backbone with combining Block 3,4 and 5 but other combination can be call in creatign the model. It is also possible to use any backbone like Resnet, Inception and etc.... </br>
-3- Run `Train_weak.py` for training Scale Space Encoder model using k-shot episodic training and evaluatign on the weak annotation test set. This code will use weaklly annotated bouning box as a label for the support set on test time.
+Please follow the bellow steps to run the code.</br>
+1- Download the FSS1000 dataset from [this](https://drive.google.com/open?id=16TgqOeI_0P41Eh3jWQlxlRXG9KIqtMgI) link and extract the dataset to a folder name `dataset_FSS1000`.</br>
+2- Download the ISIC 2018 train dataset from [this](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) link and extract both training dataset and ground truth folders to a folder `dataset_isic18`. </br>
+3- Run `Prepare_ISIC2018.py` for data preperation and dividing data to train(unlabeled) and test sets. </br>
 
-Notice: `parser_utils.py` can be used for hyper parameter setting and defining data set address, k-shot and n-way.
+****4- Download the Ph2 dataset from [this](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) link and extract both training dataset and ground truth folders to a folder `dataset_ph2`. </br>
+5- Run `Prepare_ISIC2018.py` for data preperation and dividing data to train(unlabeled) and test sets. </br>
+
+2- Run `Train_DOGLSTM.py` for training and evaluation. 
 
 ## Quick Overview
-![Diagram of the proposed method](https://github.com/rezazad68/fewshot-segmentation/blob/master/githubimages/Figure1.png)
+![Diagram of the proposed method](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Main%20model.png)
 
-### Structure of the Proposed Scale Space encoder for reducing texture bias effect
-![Diagram of the SSR](https://github.com/rezazad68/fewshot-segmentation/blob/master/githubimages/Figure2.png)
-
-### Visual representation of 21 classes from 1000-class dataset with their masks and generated bounding box [Download link](https://github.com/rezazad68/fewshot-segmentation/raw/master/FSS-1000%20Bounding%20Box%20Annotation.zip)
-![Bounding Box annotation for FSS-1000](https://github.com/rezazad68/fewshot-segmentation/blob/master/githubimages/Weak%20Annotation%20samples%20for%20FSS1000.jpg)
+### Visual representation of the segmentation results on both ph2 and ISIC dataset
+![Segmentation Result](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Result.png)
