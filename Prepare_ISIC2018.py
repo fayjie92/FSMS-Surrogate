@@ -11,7 +11,7 @@ width  = 224
 channels = 3
 
 ############################################################# Prepare ISIC 2018 data set #################################################
-Dataset_add = '/home/maryam/Maryam/Medical/ISIC2018/'
+Dataset_add = '/ISIC2018/'
 Tr_add = 'ISIC2018_Task1-2_Training_Input'
 
 Tr_list = glob.glob(Dataset_add+ Tr_add+'/*.jpg')
