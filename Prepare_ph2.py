@@ -15,7 +15,7 @@ import scipy.misc as sc
 height, width, channels = 224, 224, 3
 
 
-Dataset_add = '/data/data2/Maryam/ph2_dataset/PH2Dataset/PH2 Dataset images/'
+Dataset_add = '/PH2Dataset/'
 
 bimg_add = '_Dermoscopic_Image'
 bseg_add = '_lesion'
