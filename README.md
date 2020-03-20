@@ -31,7 +31,7 @@ Please follow the bellow steps to run the code.</br>
 5- Run `Train_evaluate.py` for training and evaluation. 
 
 ## Quick Overview
-![Diagram of the proposed method](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Main%20model1.png)
+![Diagram of the proposed method](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Method.png)
 ### Quantitive result 
 ![Segmentation Result](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Table.jpg)
 
