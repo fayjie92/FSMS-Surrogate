@@ -24,14 +24,11 @@ This code has been implemented in python language using Keras libarary with tens
 
 ## Run Demo
 Please follow the bellow steps to run the code.</br>
-1- Download the FSS1000 dataset from [this](https://drive.google.com/open?id=16TgqOeI_0P41Eh3jWQlxlRXG9KIqtMgI) link and extract the dataset to a folder name `dataset_FSS1000`.</br>
+1- Download the FSS1000 dataset from [this](https://drive.google.com/open?id=16TgqOeI_0P41Eh3jWQlxlRXG9KIqtMgI) link and extract the dataset to a folder name `fss_dataset`.</br>
 2- Download the ISIC 2018 train dataset from [this](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) link and extract both training dataset and ground truth folders to a folder `dataset_isic18`. </br>
 3- Run `Prepare_ISIC2018.py` for data preperation and dividing data to train(unlabeled) and test sets. </br>
-
-****4- Download the Ph2 dataset from [this](https://www.dropbox.com/s/k88qukc20ljnbuo/PH2Dataset.rar) link and extract both training dataset and ground truth folders to a folder `dataset_ph2`. </br>
-5- Run `Prepare_ISIC2018.py` for data preperation and dividing data to train(unlabeled) and test sets. </br>
-
-2- Run `Train_DOGLSTM.py` for training and evaluation. 
+4- Run `Prepare_ph2.py` for data preperation and providing test sets. </br>
+5- Run `Train_evaluate.py` for training and evaluation. 
 
 ## Quick Overview
 ![Diagram of the proposed method](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Main%20model1.png)
