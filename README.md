@@ -28,7 +28,7 @@ Please follow the bellow steps to run the code.</br>
 2- Download the ISIC 2018 train dataset from [this](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) link and extract both training dataset and ground truth folders to a folder `dataset_isic18`. </br>
 3- Run `Prepare_ISIC2018.py` for data preperation and dividing data to train(unlabeled) and test sets. </br>
 
-****4- Download the Ph2 dataset from [this](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) link and extract both training dataset and ground truth folders to a folder `dataset_ph2`. </br>
+****4- Download the Ph2 dataset from [this](https://www.dropbox.com/s/k88qukc20ljnbuo/PH2Dataset.rar) link and extract both training dataset and ground truth folders to a folder `dataset_ph2`. </br>
 5- Run `Prepare_ISIC2018.py` for data preperation and dividing data to train(unlabeled) and test sets. </br>
 
 2- Run `Train_DOGLSTM.py` for training and evaluation. 
