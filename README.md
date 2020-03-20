@@ -38,4 +38,10 @@ Please follow the bellow steps to run the code.</br>
 ### Visual representation of the segmentation results on both ph2 and ISIC dataset
 ![Segmentation Result](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Result.png)
 
+### Query
+All implementation done by Abdur. R. Fayjie and Reza Azad. For any query please contact Dr. Claude Kauffman for more information.
 
+```python
+claude.kauffmann@umontreal.ca
+
+```
