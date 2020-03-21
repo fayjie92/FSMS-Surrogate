@@ -40,7 +40,7 @@ Please follow the bellow steps to run the code.</br>
 ![Segmentation Result](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Result.png)
 
 ### Query
-All implementation done by Claude Kauffman, Abdur. R. Fayjie and Reza Azad. 
+All implementation done by Abdur. R. Fayjie and Reza Azad. 
 ```python
 fayjie92@gmail.com
 rezazad68@gmail.com
