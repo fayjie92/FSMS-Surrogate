@@ -4,11 +4,11 @@ Implementation code for Semi-supervised approach for few-shot semantic medical i
 </br>
 >[Abdur. R. Fayjie](https://sites.google.com/site/abdurrfayjie/),
 [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate),
+[Marco Pedersoli](https://scholar.google.com/citations?user=aVfyPAoAAAAJ&hl=en),
 [Claude Kauffman](https://radiologie.umontreal.ca/departement/les-professeurs/profil/kauffmann-claude/in15322/),
-[Ismail Ben Ayed](https://scholar.google.com/citations?hl=en&user=29vyUccAAAAJ&view_op=list_works&sortby=pubdate),
-[Marco Pedersoli](https://scholar.google.com/citations?user=aVfyPAoAAAAJ&hl=en) and
+[Ismail Ben Ayed](https://scholar.google.com/citations?hl=en&user=29vyUccAAAAJ&view_op=list_works&sortby=pubdate) and
 [Jose Dolz](https://scholar.google.ca/citations?user=yHQIFFMAAAAJ&hl=en) 
-"Semi-supervised Few-Shot Learning for Medical Image Segmentation", arXiv preprint arXiv, 2020, download [link]().
+"Semi-supervised Few-Shot Learning for Medical Image Segmentation", arXiv preprint arXiv, 2020, download [link](https://arxiv.org/pdf/2003.08462.pdf).
 
 ## Updates
 - March 20, 2020: Implementation code is available now.
@@ -43,6 +43,8 @@ Please follow the bellow steps to run the code.</br>
 All implementation done by Abdur. R. Fayjie and Reza Azad. For any query please contact Dr. Claude Kauffman for more information.
 
 ```python
+fayjie92@gmail.com
+rezazad68@gmail.com
 claude.kauffmann@umontreal.ca
 
 ```
