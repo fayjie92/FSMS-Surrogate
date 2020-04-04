@@ -39,8 +39,3 @@ Please follow the bellow steps to run the code.</br>
 ### Visual representation of the segmentation results on both ph2 and ISIC dataset
 ![Segmentation Result](https://github.com/rezazad68/FSMS-Surrogate-/blob/master/githubimages/Result.png)
 
-### Query
-All implementations and idea have been proposed and done by Prof. Claude Kauffman.
-```python
-claude.kauffmann@umontreal.ca
-```
