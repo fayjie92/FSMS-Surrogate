@@ -2,6 +2,7 @@
 
 Implementation code for Semi-supervised approach for few-shot semantic medical image segmentation. This method is the first attempt to apply the episodic training paradigm for few-shot medical image segmentation. This method also enriches the feature representation in an unsupervised manner. More specifically, this method boosts the encoder representation with including surrogate task. Experimental results on two well-know Skin Lesion Segmentation data sets have been demonstrated that the proposed method produces promising results. If this code helps with your research please consider citing the following paper:
 </br>
+<!-- 
 >[Abdur. R. Fayjie](https://sites.google.com/site/abdurrfayjie/),
 [Marco Pedersoli](https://scholar.google.com/citations?user=aVfyPAoAAAAJ&hl=en),
 [Claude Kauffman](https://radiologie.umontreal.ca/departement/les-professeurs/profil/kauffmann-claude/in15322/),
@@ -11,6 +12,7 @@ Implementation code for Semi-supervised approach for few-shot semantic medical i
 
 ## Updates
 - March 20, 2020: Implementation code is available now.
+-->
 </br>
 
 ## Prerequisties and Run
